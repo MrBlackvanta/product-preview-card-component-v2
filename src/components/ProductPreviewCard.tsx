@@ -33,13 +33,12 @@ export default function ProductPreviewCard() {
         <h1 className="text-preset-1 text-black">{title}</h1>
         <p className="text-preset-3">{description}</p>
         <div className="flex items-center gap-4">
-          <span
-            className="text-preset-1 text-green-500"
-            aria-label="Discounted price"
-          >
+          <span className="text-preset-1 text-green-500">
+            <span className="sr-only">Discounted price: </span>
             {fmtPrice(price.current)}
           </span>
-          <s className="text-preset-5 text-grey" aria-label="Original price">
+          <s className="text-preset-5 text-grey">
+            <span className="sr-only">Original price: </span>
             {fmtPrice(price.original)}
           </s>
         </div>
