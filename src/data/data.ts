@@ -2,8 +2,8 @@ import type { ProductPreviewCardData } from "types";
 
 export const productPreviewCardData: ProductPreviewCardData = {
   image: {
-    mobile: "/images/image-product-mobile.jpg",
-    desktop: "/images/image-product-desktop.jpg",
+    mobile: "/images/image-product-mobile.webp",
+    desktop: "/images/image-product-desktop.webp",
     alt: "Bottle of Gabrielle Essence perfume on pink background",
   },
   category: "perfume",
