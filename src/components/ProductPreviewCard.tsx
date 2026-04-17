@@ -29,7 +29,7 @@ export default function ProductPreviewCard() {
         />
       </picture>
       <figcaption className="text-grey grid gap-6 p-8 md:w-1/2">
-        <p className="text-preset-4">{category}</p>
+        <p className="text-preset-4 uppercase">{category}</p>
         <h1 className="text-preset-1 text-black">{title}</h1>
         <p className="text-preset-3">{description}</p>
         <div className="flex items-center gap-4">
