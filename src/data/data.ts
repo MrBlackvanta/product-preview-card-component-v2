@@ -1,9 +1,12 @@
+import desktop from "assets/images/image-product-desktop.jpg";
+import mobile from "assets/images/image-product-mobile.jpg";
 import type { ProductPreviewCardData } from "types";
 
 export const productPreviewCardData: ProductPreviewCardData = {
   image: {
-    mobile: "/src/assets/images/image-product-mobile.jpg",
-    desktop: "/src/assets/images/image-product-desktop.jpg",
+    mobile,
+    desktop,
+    alt: "Bottle of Gabrielle Essence perfume on pink background",
   },
   category: "perfume",
   title: "Gabrielle Essence Eau De Parfum",

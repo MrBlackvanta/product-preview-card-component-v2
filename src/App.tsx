@@ -2,8 +2,8 @@ import { ProductPreviewCard } from "components";
 
 export default function App() {
   return (
-    <div className="bg-cream relative grid min-h-dvh w-full grid-cols-1 grid-rows-[1fr_auto] sm:place-content-center">
-      <main className="mx-auto mt-9 w-full max-w-87.5 place-self-center md:max-w-150">
+    <div className="bg-cream grid min-h-dvh w-full grid-rows-[1fr_auto]">
+      <main className="mt-9 w-full max-w-87.5 place-self-center md:max-w-150">
         <ProductPreviewCard />
       </main>
       <footer className="text-preset-5 mt-auto w-full pb-4 text-center text-black">
