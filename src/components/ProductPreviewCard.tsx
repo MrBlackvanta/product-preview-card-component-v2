@@ -12,13 +12,18 @@ export default function ProductPreviewCard() {
   return (
     <figure className="flex flex-col overflow-hidden rounded-lg bg-white md:flex-row">
       <picture className="md:w-1/2">
-        <source srcSet={image.desktop} media="(min-width: 768px)" />
+        <source
+          srcSet={image.desktop}
+          media="(min-width: 768px)"
+          width={600}
+          height={900}
+        />
         <img
           src={image.mobile}
           alt={image.alt}
           className="h-full w-full object-cover"
-          width={300}
-          height={450}
+          width={686}
+          height={480}
           fetchPriority="high"
           decoding="async"
         />

@@ -21,7 +21,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 ### Links
 
 - Solution URL: [GitHub](https://github.com/MrBlackvanta/product-preview-card-component-v2)
-- Live Site URL: [Netlify](https://vanta-product-preview-card-component-v2.netlify.app)
+- Live Site URL: [Netlify](https://vanta-product-preview-card-v2.netlify.app)
 
 ## My process
 
