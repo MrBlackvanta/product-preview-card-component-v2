@@ -7,6 +7,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
   - [Links](#links)
+- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
@@ -22,6 +23,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - Solution URL: [GitHub](https://github.com/MrBlackvanta/product-preview-card-component-v2)
 - Live Site URL: [Netlify](https://vanta-product-preview-card-v2.netlify.app)
 
+## My process
 
 ### Built with
 
